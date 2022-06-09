@@ -5,11 +5,11 @@ int main()
 	int a,b;
 
 	printf("Type a positive value: ");
+	fflush(stdout);
 	scanf("%d",&b);
 	for(a=0;a<b;a++)
 	{
 		printf("I must do this %d times\n",b);
-		fflush(stdout);
 		if(a==9)
 			break;
 	}
