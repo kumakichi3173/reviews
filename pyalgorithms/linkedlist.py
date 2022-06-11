@@ -81,12 +81,12 @@ itemlist.insert(15)
 
 itemlist.dump_list() # prints out the list using the dump list function
 
-
+'''
 # exercise the list
 print("Item count: ", itemlist.get_count())
 print("Finding item: ", itemlist.find(13)) # find function to find some data in the list (in this case, 13 which is in the list)
 print("Finding item: ", itemlist.find(78)) # find function to find some data in the list (in this case, 78 which is NOT in the list)
-
+'''
 
 # delete an item
 itemlist.deleteAt(3) # delete the item at the index 3 (13)
