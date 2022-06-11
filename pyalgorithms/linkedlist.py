@@ -58,12 +58,12 @@ class LinkedList(object):
             return
         else:
             tempIdx = 0
-            node = self.head
+            node = self.head # temp variable "node"
             while tempIdx < idx-1:
                 node = node.get_next()
                 tempIdx += 1
-            node.set_next(node.get_next().get_next())
-            self.count -= 1
+            node.set_next(node.get_next().get_next()) # when we delete the node, we need to let the pointer to point at the next one 
+            self.count -= 1 # decrement the count to reflect the fact that we've gotten rid of the node 
 
     def dump_list(self): # a utility that prints the contents of the lists
         tempnode = self.head
@@ -81,13 +81,15 @@ itemlist.insert(15)
 
 itemlist.dump_list() # prints out the list using the dump list function
 
+
 # exercise the list
 print("Item count: ", itemlist.get_count())
 print("Finding item: ", itemlist.find(13)) # find function to find some data in the list (in this case, 13 which is in the list)
 print("Finding item: ", itemlist.find(78)) # find function to find some data in the list (in this case, 78 which is NOT in the list)
 
+
 # delete an item
-itemlist.deleteAt(3)
+itemlist.deleteAt(3) # delete the item at the index 3 (13)
 print("Item count: ", itemlist.get_count())
 print("Finding item: ", itemlist.find(38))
 itemlist.dump_list()
