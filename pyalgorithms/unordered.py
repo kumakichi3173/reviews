@@ -1,9 +1,7 @@
-# searching for an item in an ordered list
-# this technique uses a binary search
-
 # declare a list of values to operate on
 # searching for an item in an unordered list
 # sometimes called a Linear search
+# simple and easy to understand, but less eficient
 
 # declare a list of values to operate on
 items = [6, 20, 8, 19, 56, 23, 87, 41, 49, 53]
@@ -15,7 +13,6 @@ def find_item(item, itemlist):
             return i 
     
     return None
-
 
 print("the index of the item, 87 is", find_item(87, items))
 print("the index of the item, 250 is", find_item(250, items))

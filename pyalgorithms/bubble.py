@@ -1,5 +1,5 @@
 # Bubble sort algorithm
-
+# least efficiency but easy to understand because of its simplicity
 
 def bubbleSort(dataset):
     # start with the array length and decrement each time
