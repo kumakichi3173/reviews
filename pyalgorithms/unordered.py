@@ -1,6 +1,6 @@
 # declare a list of values to operate on
 # searching for an item in an unordered list
-# sometimes called a Linear search
+# sometimes called a Linear search b/c it requires computational time, that is linear in the list size
 # simple and easy to understand, but less eficient
 
 # declare a list of values to operate on
