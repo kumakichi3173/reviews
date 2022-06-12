@@ -50,6 +50,7 @@ my_dict["Sifat"] = 22
 for key, value in my_dict.items():
     print(key, value)
 
+
 '''
 my_dict = { 'Jack': 26, 'Annie': 21, 'Bobby': 27, 'Sifat': 22}
 my_dict["Annie"] = 21
