@@ -3,6 +3,7 @@
 # Recursive functions need to have a breaking condition
 # A breaking condition prevents infinite loops and eventual crashes
 # Each time the function is called, the old arguments are saved (call stack)
+# The program returns to the statement after the function call was made. If there is no statement, the program exits the function 
 
 def countdown(x):
     # breaking condition
